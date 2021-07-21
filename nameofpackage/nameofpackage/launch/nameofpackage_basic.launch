@@ -1,0 +1,8 @@
+<launch>
+
+  <!-- Launch ROS Package Template Node -->
+  <node pkg="nameofpackage" type="nameofpackage" name="nameofpackage" output="screen">
+    <rosparam command="load" file="$(find nameofpackage)/config/default.yaml" />
+  </node>
+
+</launch>
